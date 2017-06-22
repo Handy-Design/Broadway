@@ -21,7 +21,32 @@ h1{
   color: white;
 }
 
-.header{
+h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p{
+  font-size: 14px;
+}
+
+.Home{
+  background: url("../images/the-flatiron-building.png"), black;
+  background-size: cover;
+}
+
+#Work{
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
+#Work{
   background: url("../images/the-flatiron-building.png"), black;
   background-size: cover;
 }
