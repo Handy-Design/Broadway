@@ -4,17 +4,24 @@ html{
 }
 
 nav {
-  display:block;
+  display: grid;
   font-size: 18px;
+
   color:white;
+}
+
+.header a, a:visited{
+     text-decoration: none;
+     color: White;
 }
 
 h1{
   font-size: 70px;
   font-weight: bold;
+  color: white;
 }
 
-#header div{
-  background-image: url(../resources/images/the-flatiron-building.png);
-  background: black;
+.header{
+  background: url("../images/the-flatiron-building.png"), black;
+  background-size: cover;
 }
